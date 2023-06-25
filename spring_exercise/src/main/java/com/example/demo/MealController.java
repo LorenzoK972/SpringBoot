@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class MealController2 {
+public class MealController {
     List<Meal> mealList = Arrays.asList(new Meal("Pasta in bianco", "Pasta con aglio, olio e peperoncino", 10.00),
             new Meal("Pasta al ragù", "Pasta con ragù di carne", 14.00),
             new Meal("Pasta carbonara", "Pasta con uovo, guanciale, pepe e pecorino", 15.00),
